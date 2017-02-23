@@ -1,0 +1,151 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// base
+
+$base-body-font-family:     -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$base-body-font-size:       17px;
+$base-body-line-height:     1.294;
+$base-body-color:           #111;
+
+$base-link-color:                  $base-body-color;
+$base-link-hover-color:            #9d9d9c;
+$base-link-hover-text-decoration:  none;
+
+// Navs
+
+$nav-padding-vertical:         0px;
+$nav-padding-horizontal:       0px;
+
+$nav-side-hover-background:    #fff;
+$nav-side-hover-color:         $base-link-hover-color;
+
+$nav-side-nested-color:        $base-link-color;
+$nav-side-nested-hover-color:  $base-link-hover-color;
+
+$nav-sub-padding-left:         15px;
+
+// Subnav
+
+$subnav-hover-color:           $base-link-hover-color;
+$subnav-line-border:           $base-body-color;
+$subnav-line-border-width:     2px;
+$subnav-line-border-height:    15px;
+$subnav-margin-horizontal:     15px;
+
+// Dropdown
+
+$dropdown-width:        325px;
+$dropdown-background:   #fff;
+$dropdown-animation:    uk-fade-top;
+
+// Utility
+
+$utility-container-large-max-width:   1280px;
+$utility-margin-large:     30px;
+
+// Button
+
+$button-large-height:       80px;
+$button-large-font-size:    22px;
+$button-large-line-height:  $button-large-height;
+
+$button-color:              $base-body-color;
+$button-hover-color:        $button-color;
+$button-background:         #ffffff;
+$button-hover-background:   #d0d0d0;
+
+// Mixins
+
+@import "uikit-mixins";
+
+@mixin hook-dropdown(){
+  border: 2px solid #000;
+}
+
+@mixin hook-button-large(){
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+// LESS related
+@import "core/variables.scss";
+
+// Defaults
+@import "core/base.scss";
+
+// Layout
+@import "core/grid.scss";
+// @import "core/panel.scss";
+// @import "core/block.scss";
+// @import "core/article.scss";
+// @import "core/comment.scss";
+// @import "core/cover.scss";
+
+// Navs
+@import "core/nav.scss";
+// @import "core/navbar.scss";
+@import "core/subnav.scss";
+// @import "core/breadcrumb.scss";
+// @import "core/pagination.scss";
+// @import "core/tab.scss";
+// @import "core/thumbnav.scss";
+
+// Elements
+@import "core/list.scss";
+// @import "core/description-list.scss";
+// @import "core/table.scss";
+// @import "core/form.scss";
+
+// Common
+@import "core/button.scss";
+// @import "core/icon.scss";
+// @import "core/close.scss";
+// @import "core/badge.scss";
+// @import "core/alert.scss";
+// @import "core/thumbnail.scss";
+// @import "core/overlay.scss";
+// @import "core/column.scss";
+@import "core/animation.scss";
+
+// JavaScript
+@import "core/dropdown.scss";
+// @import "core/modal.scss";
+// @import "core/offcanvas.scss";
+// @import "core/switcher.scss";
+
+// Need to be loaded last
+@import "core/text.scss";
+@import "core/utility.scss";
+@import "core/flex.scss";
+// @import "core/contrast.scss";
+// @import "core/print.scss";
+
+
+// 
+// Custom Style
+// 
+
+
+// Layout
+
+aside,
+header{
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+header{
+  > .uk-subnav{margin-left: auto;}
+}
+
+.site-footer{
+  margin-top: 150px;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-top: 2px solid #000;
+}

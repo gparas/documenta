@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <main>
+      <div class="uk-container uk-container-center">
+        <div class="uk-grid">
+          <div class="uk-width-medium-1-4">
+            {% include sidebar.html %}
+          </div>
+          <div class="uk-width-medium-3-4">
+            {% include header.html %}
+            <div class="uk-grid">
+              <div class="uk-width-medium-9-10">
+                {{ content }}
+                {% include footer.html %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/uikit.js"></script>
+    <script src="javascripts/sticky.js"></script>
+  </body>
+
+</html>
