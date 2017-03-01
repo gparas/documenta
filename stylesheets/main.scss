@@ -4,9 +4,35 @@
 
 @charset "utf-8";
 
+@font-face {
+  font-family: "StandardHaasWeb-Regular_A";
+  src: url("../fonts/StandardHaasWeb/StandardHaasWeb-Regular_A.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "StandardHaasWeb-Regular_B";
+  src: url("../fonts/StandardHaasWeb/StandardHaasWeb-Regular_B.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "StandardHaasWeb-LiningFigures";
+  src: url("../fonts/StandardHaasWeb/StandardHaasWeb-LiningFigures.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "StandardHaasWeb-Regular_A";
+  src: url("../fonts/StandardHaasWeb/StandardHaasWeb-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
 // base
 
-$base-body-font-family:     -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$base-body-font-family:     "StandardHaasWeb-Regular_A", "StandardHaasWeb-LiningFigures", "StandardHaasWeb-Regular_B", Helvetica, Arial, sans-serif;
+// $base-body-font-family:     -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $base-body-font-size:       17px;
 $base-body-line-height:     1.294;
 $base-body-color:           #111;
@@ -14,6 +40,17 @@ $base-body-color:           #111;
 $base-link-color:                  $base-body-color;
 $base-link-hover-color:            #9d9d9c;
 $base-link-hover-text-decoration:  none;
+
+$base-heading-font-family:  $base-body-font-family;
+
+// text
+
+$text-large-font-size:         22px;
+$text-large-line-height:       1.294em;
+
+// block
+
+$block-padding-vertical-large:  60px;
 
 // Navs
 
@@ -80,7 +117,7 @@ $button-hover-background:   #d0d0d0;
 // Layout
 @import "core/grid.scss";
 // @import "core/panel.scss";
-// @import "core/block.scss";
+@import "core/block.scss";
 // @import "core/article.scss";
 // @import "core/comment.scss";
 // @import "core/cover.scss";
@@ -129,6 +166,42 @@ $button-hover-background:   #d0d0d0;
 // Custom Style
 // 
 
+// Buttons
+
+.button-xl{
+  @extend .uk-button-large;
+  min-height: 140px;
+  line-height: 140px;
+}
+
+// Block
+
+.tm-block{
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+// List
+
+ul.list-custom{
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+
+  li{
+    position: relative;
+    padding-left: 20px;
+
+    &:before{
+      content: '\2013';
+      position: absolute;
+      left: 0;
+    }
+  }
+}
 
 // Layout
 
@@ -148,4 +221,43 @@ header{
   padding-top: 30px;
   padding-bottom: 10px;
   border-top: 2px solid #000;
+}
+
+
+// 
+// Pages
+// 
+
+.page-header{
+  padding: 0;
+  margin: 0;
+
+  .page-title{
+    margin-bottom: 42px;
+    font-size: $text-large-font-size;
+    line-height: $text-large-line-height;
+  }
+}
+
+.page-image{
+  max-height: 449px;
+}
+
+// Payment
+
+.payment-logo{
+  img{
+    height: 40px;
+    margin: 0 15px;
+  } 
+}
+
+// Utility
+
+.text-underline{
+  &,
+  &:hover,
+  &:focus{
+    text-decoration: underline;
+  }
 }
