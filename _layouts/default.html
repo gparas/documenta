@@ -4,6 +4,9 @@
   {% include head.html %}
 
   <body>
+    <script type="text/javascript">
+      var SHOW_MENU=false;
+    </script>
     <main>
       <div class="uk-container uk-container-center">
         <div class="uk-grid">
@@ -27,6 +30,30 @@
     <script src="javascripts/jquery.js"></script>
     <script src="javascripts/uikit.js"></script>
     <script src="javascripts/sticky.js"></script>
+
+<script type="text/javascript">
+  var timer=0, DELAY_SLIDER=150;
+  if (SHOW_MENU === true) {
+    $("#walks-menu-slide-down").show();
+  } else {
+
+    $("#walks-menu-toggle").on("mouseenter", function() {
+        clearTimeout(timer);
+
+        timer = setTimeout(function() {
+          $("#walks-menu-slide-down").slideDown("fast");
+        }, DELAY_SLIDER);
+
+    }).on("mouseleave", function() {
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+          $("#walks-menu-slide-down").slideUp();
+        }, DELAY_SLIDER);
+
+
+    });
+  }
+</script>s
   </body>
 
 </html>
