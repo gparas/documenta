@@ -6,25 +6,25 @@
 
 @font-face {
   font-family: "StandardHaasWeb-Regular_A";
-  src: url("/fonts/StandardHaasWeb/StandardHaasWeb-Regular_A.woff") format("woff");
+  src: url("../fonts/StandardHaasWeb-Regular_A.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "StandardHaasWeb-Regular_B";
-  src: url("/fonts/StandardHaasWeb/StandardHaasWeb-Regular_B.woff") format("woff");
+  src: url("../fonts/StandardHaasWeb-Regular_B.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "StandardHaasWeb-LiningFigures";
-  src: url("/fonts/StandardHaasWeb/StandardHaasWeb-LiningFigures.woff") format("woff");
+  src: url("../fonts/StandardHaasWeb-LiningFigures.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "StandardHaasWeb-Regular_A";
-  src: url("/fonts/StandardHaasWeb/StandardHaasWeb-Italic.woff") format("woff");
+  src: url("../fonts/StandardHaasWeb-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }
@@ -165,6 +165,10 @@ $button-hover-background:   #d0d0d0;
 // 
 // Custom Style
 // 
+
+body{
+  letter-spacing: 0.75px;
+}
 
 // Buttons
 
