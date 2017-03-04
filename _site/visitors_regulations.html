@@ -149,29 +149,27 @@
     <script src="javascripts/uikit.js"></script>
     <script src="javascripts/sticky.js"></script>
 
-<script type="text/javascript">
-  var timer=0, DELAY_SLIDER=150;
-  if (SHOW_MENU === true) {
-    $("#walks-menu-slide-down").show();
-  } else {
+    <script type="text/javascript">
+      var timer=0, DELAY_SLIDER=150;
 
-    $("#walks-menu-toggle").on("mouseenter", function() {
-        clearTimeout(timer);
+      if (SHOW_MENU === true) {
+        $("#walks-menu-slide-down").show();
+      } else {
+        $("#walks-menu-toggle").on("mouseenter", function() {
+            clearTimeout(timer);
 
-        timer = setTimeout(function() {
-          $("#walks-menu-slide-down").slideDown("fast");
-        }, DELAY_SLIDER);
+            timer = setTimeout(function() {
+              $("#walks-menu-slide-down").slideDown("fast");
+            }, DELAY_SLIDER);
 
-    }).on("mouseleave", function() {
-        clearTimeout(timer);
-        timer = setTimeout(function() {
-          $("#walks-menu-slide-down").slideUp();
-        }, DELAY_SLIDER);
+        }).on("mouseleave", function() {
+            clearTimeout(timer);
 
-
-    });
-  }
-</script>s
+            timer = setTimeout(function() {
+              $("#walks-menu-slide-down").slideUp();
+            }, DELAY_SLIDER);
+        });
+      }
+    </script>
   </body>
-
 </html>
