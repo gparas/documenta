@@ -15,4 +15,6 @@
   <ul class="uk-nav uk-nav-side uk-margin-bottom" data-uk-nav>
     <li><a href="http://www.documenta14.de/en/" target="_blank">documenta 14 website</a></li>
   </ul>
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </aside>
