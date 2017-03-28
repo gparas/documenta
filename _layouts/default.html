@@ -19,7 +19,13 @@
               <div class="uk-grid">
                 <div class="uk-width-medium-9-10">
                   {{ content }}
-                  {% include footer.html %}
+                  {% if page.lang == 'gr' %}
+                    {% include footer-gr.html %}
+                  {% elsif page.lang == 'de' %}
+                    {% include footer-de.html %}
+                  {% elsif page.lang == 'en' %}
+                    {% include footer.html %}
+                  {% endif %}
                 </div>
               </div>
             </div>

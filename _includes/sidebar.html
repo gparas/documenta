@@ -1,20 +1,16 @@
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+
 <aside data-uk-sticky="{media: 768}">
   <a class="uk-display-block uk-margin-bottom logo-brand" href="/">documenta athens webshop</a>
-  <ul class="uk-nav uk-nav-side uk-margin-bottom">
-    <li id="walks-menu-toggle">
-      <a href="/walks.html">Walks</a>
-      <ul id="walks-menu-slide-down" style="display: none;">
-        <li><a href="/public_walks.html">Public Walks</a></li>
-        <li><a href="/group_walks.html">Group Walks</a></li>
-      </ul>
-    </li>
-    <li><a href="/travel_service.html">Travel Services</a></li>
-    <li><a href="/tickets.html">Tickets</a></li>
-    <li><a href="/publications.html">Publications</a></li>
-  </ul>
+  {% if page.lang == 'gr' %}
+    {% include sidebar-menu-gr.html %}
+  {% elsif page.lang == 'de' %}
+    {% include sidebar-menu-de.html %}
+  {% elsif page.lang == 'en' %}
+    {% include sidebar-menu.html %}
+  {% endif %}
   <ul class="uk-nav uk-nav-side uk-margin-bottom" data-uk-nav>
     <li><a href="http://www.documenta14.de/en/" target="_blank">documenta 14 website</a></li>
   </ul>
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </aside>
