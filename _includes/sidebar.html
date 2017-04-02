@@ -14,5 +14,7 @@
   <ul class="uk-nav uk-nav-side uk-margin-bottom" data-uk-nav>
     <li><a href="http://www.documenta14.de/{{ page.lang }}/" target="_blank">documenta 14 website</a></li>
   </ul>
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  <div class="lang-switcher">
+    {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  </div>
 </aside>

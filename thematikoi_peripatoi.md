@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Περίπατοι
-permalink: thematikoi-peripatoi
+permalink: /thematikoi-peripatoi/
 ref: walk_themes
 lang: gr
 ---

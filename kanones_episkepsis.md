@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Κανόνες Επίσκεψης
-permalink: kanones-episkepsis
+permalink: /kanones-episkepsis/
 ref: visitors_regulations
 lang: gr
 ---

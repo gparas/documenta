@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spaziergänge
-permalink: themen-spaziergaenge
+permalink: /themen-spaziergaenge/
 ref: walk_themes
 lang: de
 ---

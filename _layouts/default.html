@@ -10,7 +10,7 @@
     <main>
       <div class="uk-container uk-container-center">
         <div class="uk-grid">
-          <div class="uk-width-medium-1-4">
+          <div class="uk-width-medium-1-4" style="position: relative;">
             {% include sidebar.html %}
           </div>
           <div class="uk-width-medium-3-4">
@@ -33,9 +33,9 @@
         </div>
       </div>
     </main>
-    <script src="javascripts/jquery.js"></script>
-    <script src="javascripts/uikit.js"></script>
-    <script src="javascripts/sticky.js"></script>
+    <script src="{{"/javascripts/jquery.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script src="{{"/javascripts/uikit.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script src="{{"/javascripts/sticky.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legal Disclosure
-permalink: legal-disclosure
+permalink: /legal-disclosure/
 ref: legal_disclosure
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Protection
-permalink: data-protection
+permalink: /data-protection/
 ref: data_protection
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Walks
-permalink: walk-themes
+permalink: /walk-themes/
 ref: walk_themes
 lang: en
 ---

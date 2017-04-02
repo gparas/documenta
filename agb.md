@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AGB
-permalink: agb
+permalink: /agb/
 ref: terms
 lang: de
 ---

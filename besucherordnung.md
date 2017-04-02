@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Besucherordnung für alle Flächen der documenta 14
-permalink: besucherordnung
+permalink: /besucherordnung/
 ref: visitors_regulations
 lang: de
 ---

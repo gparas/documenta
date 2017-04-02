@@ -1,21 +1,21 @@
 ---
 layout: default
-permalink: startseite
+permalink: /startseite/
 ref: index
 lang: de
 ---
 
 <div class="uk-margin-large-bottom">
-  <img src="images/hero-banner.svg" alt="">
+  <img src="{{"/images/hero-banner.svg" | prepend: site.baseurl | prepend: site.url }}" alt="">
 </div>
 <div class="uk-grid uk-grid-small">
   <div class="uk-width-medium-1-3">
-    <a class="uk-button uk-button-large uk-width-1-1" href="/eintrittskarten">Eintrittskarten</a>
+    <a class="uk-button uk-button-large uk-width-1-1" href="/eintrittskarten/">Eintrittskarten</a>
   </div>
   <div class="uk-width-medium-1-3">
-    <a class="uk-button uk-button-large uk-width-1-1" href="/spaziergaenge">Spaziergänge</a>
+    <a class="uk-button uk-button-large uk-width-1-1" href="/spaziergaenge/">Spaziergänge</a>
   </div>
   <div class="uk-width-medium-1-3">
-    <a class="uk-button uk-button-large uk-width-1-1" href="/publikationen">Publikationen</a>
+    <a class="uk-button uk-button-large uk-width-1-1" href="/publikationen/">Publikationen</a>
   </div>
 </div>

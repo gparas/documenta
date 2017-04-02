@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Walks
-permalink: walks
+permalink: /walks/
 ref: walks
 lang: en
 ---
 
 <div class="uk-margin-large-bottom uk-text-center">
-  <img class="page-image" src="images/hero-walks-gr.jpg" alt="Walks" title="Walks">
+  <img class="page-image" src="{{"/images/hero-walks-gr.jpg" | prepend: site.baseurl | prepend: site.url }}" alt="Walks" title="Walks">
 </div>
 <p>
   Paths, routes, and parcours cross and intertwine, as visitors consider the pathways taken by peripatetic thinkers as a point of departure for a reflection on the act of walking. Joining a member of the documenta 14 Chorus, visitors can create their own lines of inquiry, questioning and entering into dialogue as they unravel and unfold documenta 14 together.
@@ -20,7 +20,7 @@ lang: en
 </div>
 <div class="uk-grid">
   <div class="uk-width-medium-1-2">
-    <a class="uk-button button-xl uk-width-1-1 uk-block" href="public_walks.html">Public Walks</a>
+    <a class="uk-button button-xl uk-width-1-1 uk-block" href="{{"/public-walks" | prepend: site.baseurl | prepend: site.url }}">Public Walks</a>
     <p>
       Single ticket <br>
       Duration: 2 hours <br>
@@ -33,7 +33,7 @@ lang: en
     </p>
   </div>
   <div class="uk-width-medium-1-2">
-    <a class="uk-button button-xl uk-width-1-1 uk-block" href="group_walks.html">Group Walks</a>
+    <a class="uk-button button-xl uk-width-1-1 uk-block" href="{{"/group-walks" | prepend: site.baseurl | prepend: site.url }}">Group Walks</a>
     <p>
       Group ticket (max. 15 people)<br>
       Duration: 2 hours <br>

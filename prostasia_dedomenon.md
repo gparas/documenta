@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Προστασία Δεδομένων
-permalink: prostasia-dedomenon
+permalink: /prostasia-dedomenon/
 ref: data_protection
 lang: gr
 ---

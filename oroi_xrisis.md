@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Όροι χρήσης
-permalink: oroi-xrisis
+permalink: /oroi-xrisis/
 ref: terms
 lang: gr
 ---

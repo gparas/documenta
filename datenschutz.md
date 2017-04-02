@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datenschutz
-permalink: datenschutz
+permalink: /datenschutz/
 ref: data_protection
 lang: de
 ---

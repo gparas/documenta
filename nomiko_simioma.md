@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Noμικό Σημείωμα
-permalink: nomiko-simioma
+permalink: /nomiko-simioma/
 ref: legal_disclosure
 lang: gr
 ---
