@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Terms and Conditions
-permalink: terms
+title: Όροι χρήσης
+permalink: oroi-xrisis
 ref: terms
-lang: en
+lang: gr
 ---
 
 ## General Terms and Conditions of Big Olive Single Member PC for the sale of guided tours (walks) for the exhibition documenta 14.

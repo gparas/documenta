@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Terms and Conditions
-permalink: terms
+title: AGB
+permalink: agb
 ref: terms
-lang: en
+lang: de
 ---
 
 ## General Terms and Conditions of Big Olive Single Member PC for the sale of guided tours (walks) for the exhibition documenta 14.

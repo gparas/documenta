@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Legal Disclosure
+permalink: legal-disclosure
 ref: legal_disclosure
 lang: en
 ---
@@ -52,6 +53,7 @@ Marousi <br>
 www.viva.gr
 
 Webdesign & Frontend-Programming <br>
-Georges Parapanissios <br>
+Georges Parapanissios
+
 Photographers/image licensing <br>
 Photo "i-design.gr": National Museum of Contemporary Art, Athens

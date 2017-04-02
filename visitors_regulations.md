@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Visitor Regulations
+permalink: visitors-regulations
 ref: visitors_regulations
 lang: en
 ---

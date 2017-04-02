@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Besucherordnung für alle Flächen der documenta 14
+permalink: besucherordnung
 ref: visitors_regulations
 lang: de
 ---
@@ -10,13 +11,13 @@ wir begrüßen Sie herzlich zur Ausstellung der documenta 14 und wünschen Ihnen
 
 ### 1. Mitnahme von Gegenständen
 
-1. Sperrige Gegenstände wie Wanderstöcke, Schirme, Sportgeräte, Rucksäcke, Koffer oder große Taschen dürfen nicht in die Ausstellungsflächen mitgeführt werden. Die Taschengröße zur Mitnahmen in die Ausstellungsfläche wird auf maximal 33x23x10 cm beschränkt. Im Zweifel entscheidet das Aufsichtspersonal. Aus Sicherheitsgründen behalten wir uns vor, den Zugang mit sperrigen Kinderwagen zu regulieren. Sie haben die Möglichkeit, Gegenstände in Garderoben abzugeben. Die Garderobe ist versichert zu den vor Ort angeschlagenen Allgemeinen Versicherungsbedingungen. Beanstandungen sind sofort bei der Ausgabe vorzubringen. Es wird keine Haftung für Tascheninhalte und Schäden, die durch das Hinauslegen der Garderobe entstehen, übernommen.
+1. Sperrige Gegenstände wie Wanderstöcke, Schirme, Sportgeräte, Rucksäcke, Koffer oder große Taschen dürfen nicht in die Ausstellungsflächen mitgeführt werden. Die Taschengröße zur Mitnahmen in die Ausstellungsfläche wird auf maximal 33 x 23 x 10 cm beschränkt. Im Zweifel entscheidet das Aufsichtspersonal. Aus Sicherheitsgründen behalten wir uns vor, den Zugang mit sperrigen Kinderwagen zu regulieren. Sie haben die Möglichkeit, Gegenstände in Garderoben abzugeben. Die Garderobe ist versichert zu den vor Ort angeschlagenen Allgemeinen Versicherungsbedingungen. Beanstandungen sind sofort bei der Ausgabe vorzubringen. Es wird keine Haftung für Tascheninhalte und Schäden, die durch das Hinauslegen der Garderobe entstehen, übernommen.
 2. Gefährliche Gegenstände wie Gasbehälter, pyrotechnische Artikel, Fackeln, Waffen jeder Art sowie Gegenstände, die sich als Wurfgeschosse verwenden lassen (insbesondere Flaschen und Dosen), dürfen nicht mit in die Ausstellungsräume hineingenommen werden. Gleiches gilt für Störgeräte wie Laserpointer und ähnliche Geräte.
 3. Aus Sicherheitsgründen kann an der Garderobe oder/und den Einlässen der Ausstellungsflächen eine Überprüfung des Gepäckinhalts durch unser Aufsichtspersonal oder Sicherheitsmitarbeiter vorgenommen werden.
 
 ### 2. Kunstwerke
 
-Das Berühren von Kunstwerken und Vitrinen ist untersagt. Bitte wahren Sie mindestens 50 cm Abstand zu den Exponaten. Davon ausgenommen sind Kunstwerke bei denen der Künstler/in das Berühren ausdrücklich vorgesehen hat.
+Das Berühren von Kunstwerken und Vitrinen ist untersagt. Bitte wahren Sie mindestens 50 cm Abstand zu den Exponaten. Davon ausgenommen sind Kunstwerke, bei denen der Künstler/die Künstlerin das Berühren ausdrücklich vorgesehen hat.
 
 ### 3. Essen und Trinken
 
@@ -32,7 +33,7 @@ Tiere dürfen nicht mitgeführt werden. Ausgenommen sind Blindenhunde.
 
 ### 6. Führungen
 
-Um die Vermittlung des künstlerischen Konzeptes sicherzustellen sind Führungen Dritter untersagt.
+Um die Vermittlung des künstlerischen Konzeptes sicherzustellen, sind Führungen Dritter untersagt.
 
 ### 7. Fotografieren und Filmen
 
@@ -50,18 +51,17 @@ In Rücksichtnahme auf andere Besucher bitten wir um das Vermeiden von Lärm und
 
 ### 9. Gesundheitliche Risiken
 
-Die documenta und Museum Fridericianum gGmbH übernimmt keine Haftung für gesundheitliche Risiken des Ausstellungsbesuchers im Zusammenhang mit der Teilnahme oder des Besuches unserer Ausstellung. Es obliegt dem Besucher seinen Gesundheitszustand vorher zu prüfen.
+Die documenta und Museum Fridericianum gGmbH übernimmt keine Haftung für gesundheitliche Risiken des Ausstellungsbesuchers im Zusammenhang mit der Teilnahme oder des Besuches unserer Ausstellung. Es obliegt dem Besucher, seinen Gesundheitszustand vorher zu prüfen.
 
 
 Das Aufsichtspersonal ist angewiesen und befugt, für die Einhaltung der Besucherordnung zu sorgen. Bei Verletzung der Besucherordnung kann ein weiterer Aufenthalt in den Ausstellungsräumen untersagt werden.
 
 Die Besucher sind daher verpflichtet: <br>
-Den Anweisungen des Aufsichtspersonals Folge zu leisten
-Bei Alarm der Einzelobjektsicherung an Kunstwerken oder Vitrinen Ruhe zu bewahren und die Anweisungen des Aufsichtspersonals abzuwarten.
-Bei Feueralarm das Gebäude zügig und ruhig zu verlassen.
-
-Bei Schülergruppen die Begleitung durch einen Verantwortlichen zu gewährleisten
-Sich in den Ausstellungsräumen so zu bewegen, dass die Beschädigung von Kunstwerken und die Belästigung anderer Besucher vermieden werden.
+– den Anweisungen des Aufsichtspersonals Folge zu leisten; <br>
+– bei Alarm der Einzelobjektsicherung an Kunstwerken oder Vitrinen Ruhe zu bewahren und die Anweisungen des Aufsichtspersonals abzuwarten; <br>
+– bei Feueralarm das Gebäude zügig und ruhig zu verlassen; <br>
+– bei Schülergruppen die Begleitung durch einen Verantwortlichen zu gewährleisten; <br>
+– sich in den Ausstellungsräumen so zu bewegen, dass die Beschädigung von Kunstwerken und die Belästigung anderer Besucher vermieden werden. <br>
 
 Die Besucherinnen und Besucher haften für alle durch das Missachten der Besucherordnung entstandenen Aufwendungen und Schäden. Wir weisen darauf hin, dass Sie sich im Fall eines Verlustes von Gegenständen innerhalb der Ausstellungsflächen an office@documenta.de wenden können. Unsere Ausstellungsflächen sind aus Sicherheitsgründen teilweise videoüberwacht. Sie nehmen Kenntnis davon, dass Bild- und Tonaufnahmen von Seiten der documenta und Museum Fridericianum gGmbH jederzeit gemacht werden können. Sie genehmigen dies durch den Kauf der Eintrittskarte bzw. Gutscheine ausdrücklich. Sie genehmigen ebenso, diese Bildaufnahmen über einen Sender oder das Internet bzw. andere moderne Kommunikationswege wahrnehmbar zu machen.
 

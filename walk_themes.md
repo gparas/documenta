@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Walks
+permalink: walk-themes
 ref: walk_themes
 lang: en
 ---
@@ -9,14 +10,14 @@ Paths, routes, and parcours cross and intertwine, as visitors consider the pathw
 
 ### Walk: Athens School of Fine Arts, Pireos Building [ASFA]
 
-Start and end <br>
+Start and finish <br>
 Pireos Street 256, 18233 Athens (Rentis)
 
 Architect <br>
 D. and S. Antonakakis; Aristide Antonas
 
 Construction <br>
-1930 to date
+1930 – present
 
 Architectural style <br>
 20th-century industrial
@@ -27,8 +28,8 @@ The exhibition hall of the Athens School of Fine Art provides a fitting setting 
 
 ### Walk: National Museum of Contemporary Art [EMST]
 
-Start and end <br>
-Kallirois ave. & Am. Frantzi street 11743, Athens
+Start and finish <br>
+Kallirois Ave. & Am. Frantzi Street 11743, Athens
 
 Architect <br>
 Ι.Mouzakis & partners; 3SK Stylianidis
@@ -45,14 +46,14 @@ The architects of the National Museum of Contemporary Art, Athens (EMST), Takis 
 
 ### Walk: Athens Conservatoire [Odeon]
 
-Start and end <br>
-Athens Conservatoire, Rigillis & Vas. Georgiou B street 17-19 Street, 10675 Athens
+Start and finish <br>
+Athens Conservatoire, Rigillis & Vas. Georgiou B Street 17-19, 10675 Athens
 
 Architect <br>
 Ioannis Despotopoulos
 
 Construction <br>
-1968-1972
+1968 - 1972
 
 Architectural style <br>
 International
