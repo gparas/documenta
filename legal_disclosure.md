@@ -41,7 +41,8 @@ The European Commission provides a platform regarding online dispute resolutions
 
 ## Further Information
 
-Your trust is important to us. Therefore we would like to respond to any questions you may have regarding the processing of your personal data. If you have questions which the data protection declaration could not answer or if you require further information, please contact our data protection representative Vassilis Gennaris at any time.
+Your trust is important to us. Therefore we would like to respond to any questions you may have regarding the processing of your personal data. If you have questions which the data protection declaration could not answer or if you require further information, please contact Big Olive PC (<a href="mailto:info@bigolive.org">info@bigolive.org</a>) at any time.
+
 
 ## Technical partners
 
