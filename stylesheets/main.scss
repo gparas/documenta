@@ -269,13 +269,11 @@ header{
 
 .lang-switcher{
   position: relative;
-  bottom: -100px;
-  left: 0;
 
   @media (min-width: 769px){
-    position: fixed;
+    position: absolute;
     bottom: 35px;
-    left: 35px;
+    left: 0;
   }
 }
 

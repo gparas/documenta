@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 
   {% include head.html %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
@@ -11,7 +12,7 @@
     <main>
       <div class="uk-container uk-container-center">
         <div class="uk-grid">
-          <div class="uk-width-large-1-4">
+          <div class="uk-width-large-1-4 uk-position-relative">
             {% include sidebar.html %}
           </div>
           <div class="uk-width-large-3-4">
@@ -20,20 +21,6 @@
               <div class="uk-grid">
                 <div class="uk-width-large-9-10">
                   {{ content }}
-                  <div class="lang-switcher">
-                    <div class="uk-form-select" data-uk-form-select>
-                      <span>
-                        {{ page.lang | replace: 'en', 'English' | replace: 'de',  'Deutsch' | replace: 'gr',  'Greek' }}
-                      </span>
-                      <select onchange="location = this.value;">
-                      {% for page in pages %} 
-                        <option value="{{ page.url | prepend: site.baseurl }}" id="selecte_option_lang-{{ page.lang }}">
-                          {{ page.lang | replace: 'en', 'English' | replace: 'de',  'Deutsch' | replace: 'gr',  'Greek' }}
-                        </option>
-                      {% endfor %}
-                      </select>
-                    </div>
-                  </div>
                   {% if page.lang == 'gr' %}
                     {% include footer-gr.html %}
                   {% elsif page.lang == 'de' %}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 
   <head>
   <meta charset="utf-8">
@@ -8,10 +9,13 @@
 
   <title>Welcome to Jekyll!</title>
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+
+  <meta property="og:image" content="images/share-logo.png"/>
+
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/02/16/welcome-to-jekyll.html">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="http://athens.documenta.de/jekyll/update/2017/02/16/welcome-to-jekyll.html">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
 </head>
 
   
@@ -23,14 +27,32 @@
     <main>
       <div class="uk-container uk-container-center">
         <div class="uk-grid">
-          <div class="uk-width-large-1-4">
+          <div class="uk-width-large-1-4 uk-position-relative">
             
 
-<aside data-uk-sticky="{media: 768}">
+<aside class="uk-height-1-1" data-uk-sticky="{media: 769}">
   
   <ul class="uk-nav uk-nav-side uk-margin-bottom" data-uk-nav>
     <li><a href="http://www.documenta14.de//" target="_blank">documenta 14 website</a></li>
   </ul>
+  <div class="lang-switcher">
+    <div class="uk-form-select" data-uk-form-select>
+      <span>
+        
+      </span>
+      <select onchange="location = this.value;">
+       
+        <option value="/feed.xml" id="selecte_option_lang-">
+          
+        </option>
+       
+        <option value="/stylesheets/main.css" id="selecte_option_lang-">
+          
+        </option>
+      
+      </select>
+    </div>
+  </div>
 </aside>
 
           </div>
@@ -66,16 +88,6 @@
 
 </article>
 
-                  <div class="lang-switcher">
-                    <div class="uk-form-select" data-uk-form-select>
-                      <span>
-                        
-                      </span>
-                      <select onchange="location = this.value;">
-                      
-                      </select>
-                    </div>
-                  </div>
                   
                 </div>
               </div>

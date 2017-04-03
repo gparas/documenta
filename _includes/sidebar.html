@@ -1,6 +1,6 @@
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 
-<aside data-uk-sticky="{media: 768}">
+<aside class="uk-height-1-1" data-uk-sticky="{media: 769}">
   {% if page.lang == 'gr' %}
     <a class="uk-display-block uk-margin-bottom logo-brand" href="/arxiki">documenta athens webshop</a>
     {% include sidebar-menu-gr.html %}
@@ -14,4 +14,18 @@
   <ul class="uk-nav uk-nav-side uk-margin-bottom" data-uk-nav>
     <li><a href="http://www.documenta14.de/{{ page.lang }}/" target="_blank">documenta 14 website</a></li>
   </ul>
+  <div class="lang-switcher">
+    <div class="uk-form-select" data-uk-form-select>
+      <span>
+        {{ page.lang | replace: 'en', 'English' | replace: 'de',  'Deutsch' | replace: 'gr',  'Greek' }}
+      </span>
+      <select onchange="location = this.value;">
+      {% for page in pages %} 
+        <option value="{{ page.url | prepend: site.baseurl }}" id="selecte_option_lang-{{ page.lang }}">
+          {{ page.lang | replace: 'en', 'English' | replace: 'de',  'Deutsch' | replace: 'gr',  'Greek' }}
+        </option>
+      {% endfor %}
+      </select>
+    </div>
+  </div>
 </aside>
