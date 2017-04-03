@@ -161,6 +161,9 @@ $button-hover-background:   #d0d0d0;
 // @import "core/contrast.scss";
 // @import "core/print.scss";
 
+// @import "components/sticky.scss";
+@import "components/form-select.scss";
+
 
 // 
 // Custom Style
@@ -263,6 +266,18 @@ header{
   border-top: 2px solid #000;
 }
 
+
+.lang-switcher{
+  position: relative;
+  bottom: -100px;
+  left: 0;
+
+  @media (min-width: 769px){
+    position: fixed;
+    bottom: 35px;
+    left: 35px;
+  }
+}
 
 // 
 // Pages

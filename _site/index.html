@@ -23,7 +23,7 @@
     <main>
       <div class="uk-container uk-container-center">
         <div class="uk-grid">
-          <div class="uk-width-medium-1-4">
+          <div class="uk-width-large-1-4">
             
 
 <aside data-uk-sticky="{media: 768}">
@@ -45,15 +45,14 @@
   <ul class="uk-nav uk-nav-side uk-margin-bottom" data-uk-nav>
     <li><a href="http://www.documenta14.de/en/" target="_blank">documenta 14 website</a></li>
   </ul>
-   <a href="/startseite" class="de">de</a>  <a href="/" class="en">en</a>  <a href="/arxiki" class="gr">gr</a> 
 </aside>
 
           </div>
-          <div class="uk-width-medium-3-4">
+          <div class="uk-width-large-3-4">
             
             <div class="main">
               <div class="uk-grid">
-                <div class="uk-width-medium-9-10">
+                <div class="uk-width-large-9-10">
                   <div class="uk-margin-large-bottom">
   <img src="images/hero-banner.svg" alt="">
 </div>
@@ -68,6 +67,28 @@
     <a class="uk-button uk-button-large uk-width-1-1" href="/publications">Publications</a>
   </div>
 </div>
+                  <div class="lang-switcher">
+                    <div class="uk-form-select" data-uk-form-select>
+                      <span>
+                        English
+                      </span>
+                      <select onchange="location = this.value;">
+                       
+                        <option value="/startseite">
+                          Deutsch
+                        </option>
+                       
+                        <option value="/">
+                          English
+                        </option>
+                       
+                        <option value="/arxiki">
+                          Greek
+                        </option>
+                      
+                      </select>
+                    </div>
+                  </div>
                   
                     <footer class="site-footer">
   <div class="uk-grid">
@@ -109,6 +130,7 @@
     <script src="javascripts/jquery.js"></script>
     <script src="javascripts/uikit.js"></script>
     <script src="javascripts/sticky.js"></script>
+    <script src="javascripts/form-select.js"></script>
 
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;

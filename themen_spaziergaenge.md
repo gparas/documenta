@@ -26,7 +26,7 @@ Architektonischer Stil <br>
 
 Die Ausstellungshalle der Hochschule der Bildenden Künste Athen (ASFA) liefert das passende Setting, um der Idee einer experimentellen Bildungsarbeit und Pädagogik nachzuspüren, die mit Begriffen wie „Offene Form“ oder „Offene Stadt“ verbunden ist. Die Spaziergänge mit dem Chor beziehen den Garten als einen Ort des Lernens mit ein und nehmen dadurch einen reflexiven Charakter an. Unter den von den Studierenden angefertigten Skulpturen, den Rosenbüschen, Granatapfel- und Feigenbäumen findet sich auch ein „Otto-Baum“, benannt nach dem König von Griechenland, der selbigen aus Bayern mitbrachte.
 
-<a href="spaziergaenge.html" class="text-underline">Zur Buchung</a>
+<a href="spaziergaenge" class="text-underline">Zur Buchung</a>
 
 ### Spaziergang: Nationales Museum für Zeitgenössische Kunst (EMST)
 
@@ -42,9 +42,9 @@ Konstruktion <br>
 Architektonischer Stil <br>
 21. Jahrhundert industriell
 
-Das Nationale Museum für Zeitgenössische Kunst (EMST) zog 2014 in sein dauerhaftes Zuhause in der ehemaligen Fix-Brauerei ein. Das Brauereigebäude war 1961 von Takis Zenetos in Zusammenarbeit mit Margaritis Apostolidis als ein flexibles Design entworfen worden, das auch für zukünftige Einsätze unter anders gelagerten Anforderungen verwendbar sein sollte. Nachdem das EMST 2002 einen Pachtvertrag über fünfzig Jahre unterzeichnet hatte, wurde ein Wettbewerb für den Umbau der Fabrik in ein Museum ausgeschrieben, den das Büro 3SK Styliandis Architects gewann. Nun wird das Gebäude vom Chor der documenta 14 bespielt, einer Vielzahl von Stimmen und Körpern, die sich hier zum Zuhören und für den Dialog zusammenfinden, während die Kunstwerke der documenta 14 erfahren werden. Der Chor schlägt Erkundungsmöglichkeiten vor und verwebt die Fäden, die die große Zahl der ausgestellten Künstler_innen verbinden.
+Die Architekten des National Museum of Contemporary Art in Athen (EMST), Takis Zenetos und Margaritis Apostolidis, haben ein flexibles Design vorgelegt, das auch für zukünftige Einsätze unter anders gelagerten Anforderungen verwendbar ist. Die ursprüngliche Funktion des Gebäudes als Brauerei für das Bier der Marke „Fix“, mit deren nun still stehenden Maschinen, wird nunmehr vom Chor der documenta 14 bespielt, einer Vielzahl von Stimmen und Körpern, die sich hier zum Zuhören und für den Dialog zusammenfinden, während die Kunstwerke der documenta 14 erfahren werden. Der Chor der documenta 14 schlägt Erkundungsmöglichkeiten vor und verwebt die Fäden, die die große Zahl der ausgestellten Künstler_innen verbinden.
 
-<a href="spaziergaenge.html" class="text-underline">Zur Buchung</a>
+<a href="spaziergaenge" class="text-underline">Zur Buchung</a>
 
 ### Spaziergang: Athener Konservatorium (Odeion Athinon)
 
@@ -62,4 +62,4 @@ International
 
 Die Spaziergänge erforschen die Beziehung zwischen Partitur, Stimme, Sound und Performance. Sie konzentrieren sich auf Künstler_innen der documenta 14, die sich für die Schnittfläche von Bewegung, Rhythmus, Musik und Performance interessieren. Dabei verwenden sie Partituren und Musikinstrumente, die in engem Zusammenhang mit dem Alltag und der gesellschaftlichen Wirklichkeit stehen. Wie lesen wir als Kollektive Partituren und wie interagieren wir angesichts der herrschenden Verdrängung und einer erbarmungslosen Unsicherheit? Wie vermag die menschliche Stimme die Herkunft eines Objekts und die Schwingungen seines Sounds auszudrücken?
 
-<a href="spaziergaenge.html" class="text-underline">Zur Buchung</a>
+<a href="spaziergaenge" class="text-underline">Zur Buchung</a>
