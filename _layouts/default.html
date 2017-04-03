@@ -6,6 +6,7 @@
   <body class="lang-{{ page.lang }}">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="{{ page.lang }}";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -26,7 +27,7 @@
                       </span>
                       <select onchange="location = this.value;">
                       {% for page in pages %} 
-                        <option value="{{ page.url | prepend: site.baseurl }}">
+                        <option value="{{ page.url | prepend: site.baseurl }}" id="selecte_option_lang-{{ page.lang }}">
                           {{ page.lang | replace: 'en', 'English' | replace: 'de',  'Deutsch' | replace: 'gr',  'Greek' }}
                         </option>
                       {% endfor %}
@@ -55,6 +56,8 @@
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -73,6 +76,7 @@
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>
