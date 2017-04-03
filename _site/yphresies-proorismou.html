@@ -11,14 +11,15 @@
 ">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://athens.documenta.de/yphresies-proorismou">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/yphresies-proorismou">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
 </head>
 
   
   <body class="lang-gr">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="gr";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -78,15 +79,15 @@
                       </span>
                       <select onchange="location = this.value;">
                        
-                        <option value="/reiseservice">
+                        <option value="/reiseservice" id="selecte_option_lang-de">
                           Deutsch
                         </option>
                        
-                        <option value="/destination-services">
+                        <option value="/destination-services" id="selecte_option_lang-en">
                           English
                         </option>
                        
-                        <option value="/yphresies-proorismou">
+                        <option value="/yphresies-proorismou" id="selecte_option_lang-gr">
                           Greek
                         </option>
                       
@@ -146,6 +147,8 @@
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -164,6 +167,7 @@
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>

@@ -11,14 +11,15 @@
 ">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://athens.documenta.de/thematikoi-peripatoi">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/thematikoi-peripatoi">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
 </head>
 
   
   <body class="lang-gr">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="gr";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -64,7 +65,7 @@
 
 <p>Από ιστορική άποψη, ο χορός στην αρχαία ελληνική τραγωδία απαρτιζόταν από ερασιτέχνες και πολίτες που διαμεσολαβούσαν ανάμεσα στο κοινό και στους ηθοποιούς ως σχολιαστές, φορώντας προσωπεία και ενίοτε συμπάσχοντας με κάποιον πρωταγωνιστή. Τα μέλη του Χορού της documenta 14 επιτελούν μια δυναμική πολλαπλότητα ρόλων μαζί με τους επισκέπτες της έκθεσης: προσεγγίζουν κριτικά τα έργα των καλλιτεχνών, δίνουν φωνή σε ουσιώδη ερωτήματα και εξετάζουν ευρύτερες προοπτικές που σχετίζονται με τα κοινωνικοπολιτικά και γεωγραφικά πλαίσια της documenta 14. Με αυτόν τον τρόπο οι επισκέπτες μετατρέπονται σε συντελεστές της documenta 14 προσδιορίζοντας τις διαδρομές, τις συζητήσεις και τη σημασία των έργων ο ένας δίπλα στον άλλον. Ο Χορός της documenta 14 συνθέτει μια χορωδιακότητα που συνεχίζει να θέτει ερωτήματα, να δημιουργεί μυθολογίες, να ανοίγει διαλόγους, συζητήσεις και να αφηγείται πραγματικές ή φανταστικές ιστορίες πέρα από τον χώρο της έκθεσης</p>
 
-<h3 id="section">Περίπατος: Ανώτατη Σχολή Καλών Τεχνών [ΑΣΚΤ]</h3>
+<h3 id="Περίπατος-Ανώτατη-Σχολή-Καλών-Τεχνών-ΑΣΚΤ">Περίπατος: Ανώτατη Σχολή Καλών Τεχνών [ΑΣΚΤ]</h3>
 
 <p>Έναρξη και τερματισμός <br />
 Πειραιώς 256, 18233 Αθήνα (Αγ. Ιωάννης Ρέντης)</p>
@@ -82,7 +83,7 @@
 
 <p><a href="peripatoi" class="text-underline">Κράτηση</a></p>
 
-<h3 id="section-1">Περίπατος: Εθνικό Μουσείο Σύγχρονης Τέχνης [ΕΜΣΤ]</h3>
+<h3 id="Περίπατος-Εθνικό-Μουσείο-Σύγχρονης-Τέχνης-ΕΜΣΤ">Περίπατος: Εθνικό Μουσείο Σύγχρονης Τέχνης [ΕΜΣΤ]</h3>
 
 <p>Έναρξη και τερματισμός <br />
 Λεωφ. Καλλιρρόης &amp; Αμβ. Φραντζή 11743</p>
@@ -100,7 +101,7 @@
 
 <p><a href="peripatoi" class="text-underline">Κράτηση</a></p>
 
-<h3 id="odeon">Περίπατος: Ωδείο Αθηνών [Odeon]</h3>
+<h3 id="Περίπατος-Ωδείο-Αθηνών-odeon">Περίπατος: Ωδείο Αθηνών [Odeon]</h3>
 
 <p>Έναρξη και τερματισμός <br />
 Ωδείο Αθηνών, Ρηγίλλης &amp; Βασ. Γεωργίου Β 17-19, 10675, Αθήνα</p>
@@ -129,15 +130,15 @@
                       </span>
                       <select onchange="location = this.value;">
                        
-                        <option value="/themen-spaziergaenge">
+                        <option value="/themen-spaziergaenge" id="selecte_option_lang-de">
                           Deutsch
                         </option>
                        
-                        <option value="/walk-themes">
+                        <option value="/walk-themes" id="selecte_option_lang-en">
                           English
                         </option>
                        
-                        <option value="/thematikoi-peripatoi">
+                        <option value="/thematikoi-peripatoi" id="selecte_option_lang-gr">
                           Greek
                         </option>
                       
@@ -197,6 +198,8 @@
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -215,6 +218,7 @@
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>

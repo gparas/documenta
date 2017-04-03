@@ -11,14 +11,15 @@
 ">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://athens.documenta.de/prostasia-dedomenon">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/prostasia-dedomenon">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
 </head>
 
   
   <body class="lang-gr">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="gr";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -74,7 +75,7 @@ Big Olive PC συλλέγει αυτόματα και αποθηκεύει πλ�
 
 <p>Τα στοιχεία αυτά δεν μπορούν να αποδοθούν στη Big Olive PC ή σε κάποιο συγκεκριμένο πρόσωπο.</p>
 
-<h2 id="section">Χρήση και διάδοση των προσωπικών δεδομένων</h2>
+<h2 id="Χρήση-και-διάδοση-των-προσωπικών-δεδομένων">Χρήση και διάδοση των προσωπικών δεδομένων</h2>
 
 <p>Προσωπικά δεδομένα χρησιμοποιούμε μόνο για να απαντήσουμε στις ερωτήσεις σας, να προχωρήσουμε σε συμβάσεις μαζί σας μέσω της τεχνικής διοίκησης.</p>
 
@@ -88,16 +89,16 @@ Big Olive PC συλλέγει αυτόματα και αποθηκεύει πλ�
 
 <p>Τα περισσότερα από τα cookies που χρησιμοποιούμε είναι τα λεγόμενα «cookies συνεδρίας», τα οποία διαγράφονται αυτόματα μετά το τέλος της επίσκεψής σας. Τα cookies δεν βλάπτουν τον υπολογιστή σας και δεν περιέχουν ιούς.</p>
 
-<h2 id="section-1">Δικαίωμα πρόσβασης</h2>
+<h2 id="Δικαίωμα-πρόσβασης">Δικαίωμα πρόσβασης</h2>
 
 <p>Έχετε το δικαίωμα ανά πάσα στιγμή να λάβετε πληροφορίες σχετικά με τα προσωπικά σας δεδομένα που έχουν αποθηκευτεί, την περιοχή και τον παραλήπτη τους, καθώς και το σκοπό της αποθήκευσης. Για περισσότερες πληροφορίες μπορείτε να απευθυνθείτε στο <a href="mailto:info@bigolive.org" target="_top">info@bigolive.org</a>.</p>
 
-<h2 id="os">Πλατφόρμα για την επίλυση διαφορών σε απευθείας σύνδεση (OS)</h2>
+<h2 id="Πλατφόρμα-για-την-επίλυση-διαφορών-σε-απευθείας-σύνδεση-os">Πλατφόρμα για την επίλυση διαφορών σε απευθείας σύνδεση (OS)</h2>
 
 <p>Η Ευρωπαϊκή Επιτροπή παρέχει μια ηλεκτρονική πλατφόρμα επίλυσης διαφορών (OS), το οποίο μπορεί να βρεθεί στο <a href="http://ec.europa.eu/consumers/odr/" target="_blank">http://ec.europa.eu/consumers/odr/</a>.
 Η διεύθυνση μας e-mail είναι: <a href="mailto:athens@documenta.de" target="_top">athens@documenta.de</a></p>
 
-<h2 id="section-2">Περαιτέρω πληροφορίες</h2>
+<h2 id="Περαιτέρω-πληροφορίες">Περαιτέρω πληροφορίες</h2>
 
 <p>Η εμπιστοσύνη σας είναι σημαντική για εμάς. Ως εκ τούτου, θα θέλαμε να μας απευθύνετε ερωτήσεις σας σχετικά με την επεξεργασία των προσωπικών σας δεδομένων ανά πάσα στιγμή. Εάν έχετε οποιεσδήποτε ερωτήσεις που η παρούσα Δήλωση Προστασίας Προσωπικών Δεδομένων δεν απαντά, ή αν επιθυμείτε να λάβετε περισσότερες πληροφορίες παρακαλώ επικοινωνήστε με την εταιρία μας στο info@bigolive.org.</p>
 
@@ -112,15 +113,15 @@ Big Olive PC συλλέγει αυτόματα και αποθηκεύει πλ�
                       </span>
                       <select onchange="location = this.value;">
                        
-                        <option value="/datenschutz">
+                        <option value="/datenschutz" id="selecte_option_lang-de">
                           Deutsch
                         </option>
                        
-                        <option value="/data-protection">
+                        <option value="/data-protection" id="selecte_option_lang-en">
                           English
                         </option>
                        
-                        <option value="/prostasia-dedomenon">
+                        <option value="/prostasia-dedomenon" id="selecte_option_lang-gr">
                           Greek
                         </option>
                       
@@ -180,6 +181,8 @@ Big Olive PC συλλέγει αυτόματα και αποθηκεύει πλ�
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -198,6 +201,7 @@ Big Olive PC συλλέγει αυτόματα και αποθηκεύει πλ�
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>

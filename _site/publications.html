@@ -11,14 +11,15 @@
 ">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://athens.documenta.de/publications">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/publications">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
 </head>
 
   
   <body class="lang-en">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="en";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -78,15 +79,15 @@
                       </span>
                       <select onchange="location = this.value;">
                        
-                        <option value="/publikationen">
+                        <option value="/publikationen" id="selecte_option_lang-de">
                           Deutsch
                         </option>
                        
-                        <option value="/publications">
+                        <option value="/publications" id="selecte_option_lang-en">
                           English
                         </option>
                        
-                        <option value="/ekdoseis">
+                        <option value="/ekdoseis" id="selecte_option_lang-gr">
                           Greek
                         </option>
                       
@@ -139,6 +140,8 @@
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -157,6 +160,7 @@
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>

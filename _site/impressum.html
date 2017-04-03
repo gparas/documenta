@@ -11,14 +11,15 @@
 ">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://athens.documenta.de/impressum">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/impressum">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
 </head>
 
   
   <body class="lang-de">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="de";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -121,15 +122,15 @@ Photo “i-design.gr”: National Museum of Contemporary Art, Athens</p>
                       </span>
                       <select onchange="location = this.value;">
                        
-                        <option value="/impressum">
+                        <option value="/impressum" id="selecte_option_lang-de">
                           Deutsch
                         </option>
                        
-                        <option value="/legal-disclosure">
+                        <option value="/legal-disclosure" id="selecte_option_lang-en">
                           English
                         </option>
                        
-                        <option value="/nomiko-simioma">
+                        <option value="/nomiko-simioma" id="selecte_option_lang-gr">
                           Greek
                         </option>
                       
@@ -182,6 +183,8 @@ Photo “i-design.gr”: National Museum of Contemporary Art, Athens</p>
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -200,6 +203,7 @@ Photo “i-design.gr”: National Museum of Contemporary Art, Athens</p>
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>

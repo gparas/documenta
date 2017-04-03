@@ -11,14 +11,15 @@
 ">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="canonical" href="http://athens.documenta.de/visitors-regulations">
-  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://athens.documenta.de/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/visitors-regulations">
+  <link rel="alternate" type="application/rss+xml" title="documenta 14 athens webshop" href="http://localhost:4000/feed.xml">
 </head>
 
   
   <body class="lang-en">
     <script type="text/javascript">
       var SHOW_MENU=false;
+      var LANG="en";
     </script>
     <main>
       <div class="uk-container uk-container-center">
@@ -63,7 +64,7 @@
     <p>Dear Visitors and Guests <br />
 We take great pleasure in welcoming you to the exhibition of documenta 14 this year and wish you a pleasant and inspiring stay. A few rules are unavoidable if all of the visitors and their interests are to be taken into account and the security of the exhibits themselves ensured. Adherence to the Visitors’ Protocol is obligatory for all visitors and guests. With the acquisition of your admission voucher, you automatically agree to comply with our regulations.</p>
 
-<h3 id="bringing-items-into-the-exhibition">1. Bringing items into the exhibition</h3>
+<h3 id="1-bringing-items-into-the-exhibition">1. Bringing items into the exhibition</h3>
 
 <ol>
   <li>
@@ -77,27 +78,27 @@ We take great pleasure in welcoming you to the exhibition of documenta 14 this y
   </li>
 </ol>
 
-<h3 id="artwork">2. Artwork</h3>
+<h3 id="2-artwork">2. Artwork</h3>
 
 <p>Touching artwork or display cases is prohibited. Please maintain a distance of at least 50 cm to the exhibits. The only exception to this is artwork for which the artist has specifically intended the artwork to be handled.</p>
 
-<h3 id="eating-and-drinking">3. Eating and drinking</h3>
+<h3 id="3-eating-and-drinking">3. Eating and drinking</h3>
 
 <p>In the exhibition spaces eating and drinking are not allowed. Noticeably intoxicated persons may be prohibited from entering the exhibition spaces.</p>
 
-<h3 id="smoking">4. Smoking</h3>
+<h3 id="4-smoking">4. Smoking</h3>
 
 <p>Smoking is prohibited in all exhibition spaces.</p>
 
-<h3 id="animals">5. Animals</h3>
+<h3 id="5-animals">5. Animals</h3>
 
 <p>Animals may not be admitted. Dogs for the blind are the only exception.</p>
 
-<h3 id="tours">6. Tours</h3>
+<h3 id="6-tours">6. Tours</h3>
 
 <p>Tours conducted by third parties are not allowed in the interest of securing the artistic concept.</p>
 
-<h3 id="photography-and-filming">7. Photography and filming</h3>
+<h3 id="7-photography-and-filming">7. Photography and filming</h3>
 
 <ol>
   <li>
@@ -114,11 +115,11 @@ We take great pleasure in welcoming you to the exhibition of documenta 14 this y
   </li>
 </ol>
 
-<h3 id="noise">8. Noise</h3>
+<h3 id="8-noise">8. Noise</h3>
 
 <p>In consideration of other visitors we request the avoidance of noise and a moderate level of speech volume. We also request that you turn off your mobile phones in the exhibition spaces and not to telephone from the exhibition spaces.</p>
 
-<h3 id="health-risks">9. Health risks</h3>
+<h3 id="9-health-risks">9. Health risks</h3>
 
 <p>documenta shall assume no liability for health risks to the exhibition visitor in connection with the participation or visiting of our exhibition. It is the obligation of the visitor to assess his health status in advance.</p>
 
@@ -149,15 +150,15 @@ In case of school classes or groups, to ensure that a responsible person is pres
                       </span>
                       <select onchange="location = this.value;">
                        
-                        <option value="/besucherordnung">
+                        <option value="/besucherordnung" id="selecte_option_lang-de">
                           Deutsch
                         </option>
                        
-                        <option value="/visitors-regulations">
+                        <option value="/visitors-regulations" id="selecte_option_lang-en">
                           English
                         </option>
                        
-                        <option value="/kanones-episkepsis">
+                        <option value="/kanones-episkepsis" id="selecte_option_lang-gr">
                           Greek
                         </option>
                       
@@ -210,6 +211,8 @@ In case of school classes or groups, to ensure that a responsible person is pres
     <script type="text/javascript">
       var timer=0, DELAY_SLIDER=150;
 
+      $("#selecte_option_lang-" + LANG).attr('selected', 'true');
+
       if (SHOW_MENU === true) {
         $("#walks-menu-slide-down").show();
       } else {
@@ -228,6 +231,7 @@ In case of school classes or groups, to ensure that a responsible person is pres
             }, DELAY_SLIDER);
         });
       }
+
     </script>
   </body>
 </html>
