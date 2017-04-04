@@ -11,7 +11,7 @@ email: athens@documenta.de
 description: > # this means to ignore newlines until "baseurl:"
   Paths, routes, and parcours cross and intertwine, as visitors consider the pathways taken by peripatetic thinkers as a point of departure for a reflection on the act of walking. Joining a member of the documenta 14 Chorus, visitors can create their own lines of inquiry, questioning and entering into dialogue as they unravel and unfold documenta 14 together.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://athens.documenta.de" # the base hostname & protocol for your site
+url: "https://athens.documenta.de" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  gparas
 
