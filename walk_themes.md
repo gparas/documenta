@@ -42,6 +42,8 @@ Architectural style <br>
 
 The architects of the National Museum of Contemporary Art, Athens (EMST), Takis Zenetos and Margaritis Apostolidis, developed a flexible design capable of adapting to future uses and different circumstances. The building’s original function as a brewery for “Fix” beer with its now silenced machines, is replaced by the documenta 14 Chorus, a multitude of voices and bodies drawn together for listening and dialogue, while experiencing the works of documenta 14. The Chorus of document 14 open up lines of inquiry and weaves connecting threads between the large number of artists exhibited.
 
+Walks held at the National Museum of Contemporary Art (EMST) require an extra ticket to the museum, purchased on site (EUR 8 full, EUR 4 reduced)
+
 <a href="walks" class="text-underline">Booking</a>
 
 ### Walk: Athens Conservatoire [Odeon]

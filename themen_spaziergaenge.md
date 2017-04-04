@@ -44,6 +44,8 @@ Architektonischer Stil <br>
 
 Die Architekten des National Museum of Contemporary Art in Athen (EMST), Takis Zenetos und Margaritis Apostolidis, haben ein flexibles Design vorgelegt, das auch für zukünftige Einsätze unter anders gelagerten Anforderungen verwendbar ist. Die ursprüngliche Funktion des Gebäudes als Brauerei für das Bier der Marke „Fix“, mit deren nun still stehenden Maschinen, wird nunmehr vom Chor der documenta 14 bespielt, einer Vielzahl von Stimmen und Körpern, die sich hier zum Zuhören und für den Dialog zusammenfinden, während die Kunstwerke der documenta 14 erfahren werden. Der Chor der documenta 14 schlägt Erkundungsmöglichkeiten vor und verwebt die Fäden, die die große Zahl der ausgestellten Künstler_innen verbinden.
 
+Spaziergänge im Nationalmuseum für zeitgenössische Kunst (EMST) erfordern ein Extra-Ticket zum Museum, das vor Ort gekauft wird (EUR 8 Vollticket, EUR 4 ermäßigt)
+
 <a href="spaziergaenge" class="text-underline">Zur Buchung</a>
 
 ### Spaziergang: Athener Konservatorium (Odeion Athinon)
