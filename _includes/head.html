@@ -6,7 +6,16 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <meta property="og:image" content="{{"/images/share-logo.png" | prepend: site.url }}"/>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title | escape }}">
+  
+  <meta property="og:image" content="http://athens.documenta.de/images/share-logo.png">
+  <meta property="og:image:secure_url" content="https://athens.documenta.de/images/share-logo.png">
+
+  <meta property="og:description" content="{{ site.description }}">
+
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
 
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="{{ "stylesheets/main.css" | prepend: site.baseurl }}">

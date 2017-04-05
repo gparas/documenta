@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+<html lang="{{ page.lang | replace: 'gr',  'el' }}">
 
   {% include head.html %}
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   <body class="lang-{{ page.lang }}">
     <script type="text/javascript">
       var SHOW_MENU=false;
